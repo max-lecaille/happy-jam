@@ -1,0 +1,49 @@
+.submenu{
+  display:block;
+  list-style-type: none;
+  text-align:center;      
+}
+
+.submenu li{
+  display: inline-block;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  position:relative;
+}
+
+.submenu li .dropdown{
+  display:none;
+  padding:0;
+  background: #F8604F;
+  position: absolute;
+  top: 45px;
+  right: -50px;
+  width: 350px;
+}
+
+#div-pink:hover {
+  background-color: #F8604F;
+}
+.submenu li:hover {
+  background-color: #C32E1D;
+}
+
+.submenu li .dropdown li{
+  width:auto;
+  display:block;
+  padding:10px 0px; 
+  text-align: center;
+}
+
+#dd:checked ~ .dropdown{
+  display:block;
+}
+
+#menuicon {
+  height: 17px;
+}
+
+
+

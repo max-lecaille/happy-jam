@@ -1,0 +1,40 @@
+.div-grey {
+	background-color: lightgrey;
+	text-align: center;
+	justify-content: space-around;
+	padding: 25px;
+}
+
+.card-footer {
+	margin:10px;
+	width: 300px;
+}
+
+.div-grey ul {
+	list-style: none;
+	align-content: center;
+	padding-left: 20px;
+}
+
+.div-grey li {
+	font-family: 'Nunito', sans-serif;
+}
+
+.div-grey a {
+	color: black;
+	font-family: 'Nunito', sans-serif;
+}
+
+.div-grey img {
+	height: 50px;
+}
+
+.inline-logo {
+	display: inline;
+}
+
+@media (max-width: 700px) {
+	.div-grey img {
+	height: 28px;
+	}
+}

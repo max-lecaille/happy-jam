@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
+
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/menu.css");
+@import url("components/product.css");
+@import url("components/green.css");
+@import url("components/submenu.css");
+@import url("components/footer.css");
+
+h1, h2, h3 {
+	font-family: 'Archivo', sans-serif;
+}
+
+p {
+	font-family: 'Nunito', sans-serif;
+}
+
+.txt-center {
+	text-align: center;
+	margin-bottom: 35px;
+	padding: 0px 25px 0px 25px;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	margin: 0px;
+}
+
+.txt-green {
+	color: #028D3E;
+	font-weight: 300;
+}
+
+.txt-greenlight {
+	color: #0BEA6C;
+	font-weight: 300;
+}
+
+
+.list-inline li{
+	list-style: none;
+	display: inline;
+}
+
+
+.div-flex {
+	display: flex;
+}
+
+
+.text-title {
+	text-align: center;
+	margin: 40px 0px 25px 0px;
+}
+
+.txt-padding {
+	padding: 25px 20px 25px 50px;
+}
+
+@media (max-width: 1000px) {
+	.text-title {
+		font-size: 27px;
+	}
+}
+
+@media (max-width: 790px) {
+	.text-title {
+		font-size: 23px;
+	}
+}
+
+@media (max-width: 690px) {
+	.text-title {
+		font-size: 20px;
+	}
+}
+
+
+
+

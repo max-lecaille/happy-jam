@@ -1,0 +1,32 @@
+.img-product {
+	width: 250px;
+	height: 220px;
+	object-fit: cover;	
+	object-position: center;
+}
+
+
+.card-white {
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	width: 300px;
+	text-align: center;
+	margin: 15px 15px 15px 15px;
+}
+
+
+.card-txt {
+	margin-top: 20px;
+}
+
+.card-txt2 {
+	margin: 0px;
+}
+
+.card-prod {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
